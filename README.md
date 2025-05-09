@@ -6,13 +6,13 @@ A script that guides the user to fix VcLibs "Bad Image" errors in Windows 11.
 
 ## What?
 
-After upgrading Windows 10 to 11 or just applying updates to Windows 11 from Windows update, you might sometimes be introduced to the following error screen:
+After upgrading Windows 10 to 11 or just applying updates to Windows 11 from Windows update, you might sometimes be introduced to the following error screen when trying to launch native Windows applications (Notepad, Photos etc.):
 
 ![Error message](error.png)
 
-This means that the underlying code that is required execute some default Windows applications appear to be corrupted. If you browse to the folder that is indicated in the error message, you find that the size of the files there are 0.
+Error status 0xc0000020 (“STATUS_INVALID_FILE_FOR_SECTION”) means “The attributes of the specified mapping file for a section of memory cannot be read”. This means that the DLL files that are required to execute the applications are corrupted.
 
-This script is built based on a guide provided by WinHelpOnline.
+This script is built based on a guide provided by [WinHelpOnline](https://www.winhelponline.com/blog/vclibs-uwpdesktop-33728-x64-bad-image/).
 
 ## Usage
 
