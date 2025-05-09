@@ -2,7 +2,7 @@
 
 A script that guides the user to fix VcLibs "Bad Image" errors in Windows 11.
 
-> **:warning: The script elevates itself to TrustedInstaller, which can be used to create serious damage to your system. Use with caution!**
+> **:warning: The script elevates PowerShell to TrustedInstaller, which can be used to create serious damage to your system. Use with caution!**
 
 ## What?
 
